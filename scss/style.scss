@@ -1,5 +1,6 @@
 @import "_reset";
 @import "_colors";
+@import "_fonts";
 
 body {
     background: $background;
@@ -8,4 +9,5 @@ body {
     } @else {
         color: $light-font-color;
     }
+    font-family: $font;
 }
