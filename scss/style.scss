@@ -2,12 +2,35 @@
 @import "_colors";
 @import "_fonts";
 
+@function light-or-dark-font($color) {
+    @if lightness($background) < 50% {
+        @return $dark-font-color;
+    } @else {
+        @return  $light-font-color;
+    }
+      
+}
+
 body {
     background: $background;
-    @if lightness($background) < 50% {
-        color: $dark-font-color;
-    } @else {
-        color: $light-font-color;
+    color: light-or-dark-font($background);
+    font-family: $font;  
+}
+
+%button {
+    border: 0; 
+    background: $complement;
+    color: light-or-dark-font($complement);
+    &:hover {
+        background: $hover-color;
     }
-    font-family: $font;
+    &:active {
+        background: $active-color;
+    }
+    padding: 15px;
+    margin: 10px 15px 20px 15px;
+}
+
+button {
+    @extend %button;
 }

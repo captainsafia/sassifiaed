@@ -5,10 +5,10 @@ $background: #59ABE3;
 $complement: complement($background) ;
 
 // Hover color for link and buttons
-$hover-color: lighten($complement, 20%);
+$hover-color: lighten($complement, 10%);
 
 // Active color for link and buttons
-$active-color: darken($complement, 20%);
+$active-color: darken($complement, 10%);
 
 // Font-color
 $dark-font-color: #fff;
