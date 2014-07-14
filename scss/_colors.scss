@@ -4,9 +4,6 @@ $background: #59ABE3;
 // Complementing link and button colors
 $complement: complement($background) ;
 
-// Hover color for link and buttons
-$hover-color: lighten($complement, 10%);
-
 // Active color for link and buttons
 $active-color: darken($complement, 10%);
 

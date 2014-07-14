@@ -12,9 +12,6 @@ body {
 %button {
     border: 0; 
     background: $complement;
-    &:hover {
-        background: $hover-color;
-    }
     &:active {
         background: $active-color;
     }
