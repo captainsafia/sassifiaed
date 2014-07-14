@@ -40,24 +40,25 @@ table {
 }
 
 body {
-  background: #abb7b7;
+  background: #59abe3;
   color: black;
   font-family: "Lato", "Helevetica", "Tahoma", sans-serif;
 }
 
 button {
   border: 0;
-  background: #b7abab;
+  background: #e39159;
   color: black;
   padding: 15px;
   margin: 10px 15px 20px 15px;
   height: 50px;
+  box-shadow: 0px 0px 2px #eee;
 }
 button:hover {
-  background: #cfc6c6;
+  background: #eaae85;
 }
 button:active {
-  background: #9f9090;
+  background: #dc742d;
 }
 
 button.large-button {
