@@ -1,14 +1,3 @@
-@import "_reset";
-@import "_colors";
-@import "_fonts";
-@import "_functions";
-
-body {
-    background: $background;
-    color: light-or-dark-font($background);
-    font-family: $font;  
-}
-
 %button {
     border: none; 
     background: $complement;
@@ -30,21 +19,4 @@ body {
         outline: none;
         border-bottom: #fff 1px solid;
     }
-}
-
-button {
-    @extend %button;
-    &.large-button {
-        width: 250px;
-    }
-    &.medium-button {
-        width: 200px;
-    }
-    &.small-button {
-        width: 125px; 
-    }
-}
-
-input[type="text"] {
-    @extend %text-input;
 }

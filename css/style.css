@@ -46,7 +46,7 @@ body {
 }
 
 button {
-  border: 0;
+  border: none;
   background: #e39159;
   color: black;
   padding: 15px;
@@ -56,6 +56,16 @@ button {
 }
 button:active {
   background: #dc742d;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: #000 1px solid;
+  background: none;
+}
+input[type="text"]:focus {
+  outline: none;
+  border-bottom: #fff 1px solid;
 }
 
 button.large-button {
