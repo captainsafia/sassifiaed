@@ -1,0 +1,7 @@
+@function light-or-dark-font($color) {
+    @if lightness($background) < 50% {
+        @return $dark-font-color;
+    } @else {
+        @return  $light-font-color;
+    }
+}

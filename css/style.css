@@ -40,21 +40,32 @@ table {
 }
 
 body {
-  background: #59abe3;
+  background: #abb7b7;
   color: black;
   font-family: "Lato", "Helevetica", "Tahoma", sans-serif;
 }
 
 button {
   border: 0;
-  background: #e39159;
+  background: #b7abab;
   color: black;
   padding: 15px;
   margin: 10px 15px 20px 15px;
+  height: 50px;
 }
 button:hover {
-  background: #eaae85;
+  background: #cfc6c6;
 }
 button:active {
-  background: #dc742d;
+  background: #9f9090;
+}
+
+button.large-button {
+  width: 250px;
+}
+button.medium-button {
+  width: 200px;
+}
+button.small-button {
+  width: 125px;
 }
