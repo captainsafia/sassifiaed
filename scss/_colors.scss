@@ -1,0 +1,15 @@
+// Background color
+$background: #000;
+
+// Complementing link and button colors
+$complement: complement($background) ;
+
+// Hover color for link and buttons
+$hover-color: lighten($complement, 20%);
+
+// Active color for link and buttons
+$active-color: darken($complement, 20%);
+
+// Font-color
+$dark-font-color: #fff;
+$light-font-color: #000;

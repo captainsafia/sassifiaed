@@ -1,0 +1,11 @@
+@import "_reset";
+@import "_colors";
+
+body {
+    background: $background;
+    @if lightness($background) < 50% {
+        color: $dark-font-color;
+    } @else {
+        color: $light-font-color;
+    }
+}
